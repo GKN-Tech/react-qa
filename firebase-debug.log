@@ -1,0 +1,90 @@
+[debug] [2025-01-17T23:34:03.220Z] ----------------------------------------------------------------------
+[debug] [2025-01-17T23:34:03.227Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\T766345\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2025-01-17T23:34:03.228Z] CLI Version:   13.29.1
+[debug] [2025-01-17T23:34:03.228Z] Platform:      win32
+[debug] [2025-01-17T23:34:03.228Z] Node Version:  v22.13.0
+[debug] [2025-01-17T23:34:03.229Z] Time:          Fri Jan 17 2025 15:34:03 GMT-0800 (Pacific Standard Time)
+[debug] [2025-01-17T23:34:03.229Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-01-17T23:34:03.345Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-17T23:34:03.346Z] > authorizing via signed-in user (gurkiratkaurn.02@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\T766345\Documents\Code\nwhacks\nw-hacks-workshop-2025
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-01-17T23:34:19.323Z] Using project from CLI flag: anonymous-qa
+[debug] [2025-01-17T23:34:19.325Z] Checked if tokens are valid: true, expires at: 1737160386585
+[debug] [2025-01-17T23:34:19.326Z] Checked if tokens are valid: true, expires at: 1737160386585
+[debug] [2025-01-17T23:34:19.328Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/anonymous-qa [none]
+[debug] [2025-01-17T23:34:19.626Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/anonymous-qa 403
+[debug] [2025-01-17T23:34:19.626Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/anonymous-qa {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-01-17T23:34:19.627Z] Request to https://firebase.googleapis.com/v1beta1/projects/anonymous-qa had HTTP Error: 403, The caller does not have permission
+[debug] [2025-01-17T23:34:19.628Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/anonymous-qa had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\T766345\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\T766345\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to get Firebase project anonymous-qa. Please make sure the project exists and your account has permission to access it.
+[debug] [2025-01-17T23:34:55.789Z] ----------------------------------------------------------------------
+[debug] [2025-01-17T23:34:55.794Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\T766345\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2025-01-17T23:34:55.795Z] CLI Version:   13.29.1
+[debug] [2025-01-17T23:34:55.795Z] Platform:      win32
+[debug] [2025-01-17T23:34:55.795Z] Node Version:  v22.13.0
+[debug] [2025-01-17T23:34:55.796Z] Time:          Fri Jan 17 2025 15:34:55 GMT-0800 (Pacific Standard Time)
+[debug] [2025-01-17T23:34:55.796Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-01-17T23:34:55.906Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-17T23:34:55.907Z] > authorizing via signed-in user (gurkiratkaurn.02@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\T766345\Documents\Code\nwhacks\nw-hacks-workshop-2025
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-01-17T23:34:59.452Z] Using project from CLI flag: anonymous-qa
+[debug] [2025-01-17T23:34:59.454Z] Checked if tokens are valid: true, expires at: 1737160386585
+[debug] [2025-01-17T23:34:59.455Z] Checked if tokens are valid: true, expires at: 1737160386585
+[debug] [2025-01-17T23:34:59.457Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/anonymous-qa [none]
+[debug] [2025-01-17T23:34:59.715Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/anonymous-qa 403
+[debug] [2025-01-17T23:34:59.715Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/anonymous-qa {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2025-01-17T23:34:59.716Z] Request to https://firebase.googleapis.com/v1beta1/projects/anonymous-qa had HTTP Error: 403, The caller does not have permission
+[debug] [2025-01-17T23:34:59.717Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/anonymous-qa had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\T766345\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\T766345\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to get Firebase project anonymous-qa. Please make sure the project exists and your account has permission to access it.
